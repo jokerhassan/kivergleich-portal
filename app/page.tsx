@@ -16,7 +16,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
       {/* Hero Section */}
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -27,7 +26,6 @@ export default function Home() {
           Tests, Marktneuheiten, Bewertungen und Tipps für Einsteiger und Profis.
         </p>
       </header>
-
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12 flex-grow">
         <section className="mb-12">
@@ -35,47 +33,51 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Text-KI Card */}
-            <div id="text-ki" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1" id="text-ki">
               <div className="text-3xl mb-4">✍️</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Text-KI</h3>
               <p className="text-gray-600 mb-4">Vergleiche die besten KI-Tools für Texterstellung</p>
               <div className="border-t pt-4">
-                <p className="text-sm font-semibold text-indigo-600">Copy.ai vs. Jasper</p>
+                <a href="/vergleich-copyai-vs-jasper" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                  Copy.ai vs. Jasper →
+                </a>
               </div>
             </div>
-
             {/* Bilder-KI Card */}
-            <div id="bilder-ki" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1" id="bilder-ki">
               <div className="text-3xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Bilder-KI</h3>
               <p className="text-gray-600 mb-4">Kreative Bildgenerierung im Vergleich</p>
               <div className="border-t pt-4">
-                <p className="text-sm font-semibold text-indigo-600">Midjourney vs. DALL-E</p>
+                <a href="/vergleich-midjourney-vs-dalle" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                  Midjourney vs. DALL-E →
+                </a>
               </div>
             </div>
-
             {/* Video-KI Card */}
-            <div id="video-ki" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1" id="video-ki">
               <div className="text-3xl mb-4">🎬</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Video-KI</h3>
               <p className="text-gray-600 mb-4">Professionelle Videoproduktion mit KI</p>
               <div className="border-t pt-4">
-                <p className="text-sm font-semibold text-indigo-600">Pictory vs. Synthesia</p>
+                <a href="/vergleich-pictory-vs-synthesia" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                  Pictory vs. Synthesia →
+                </a>
               </div>
             </div>
-
             {/* SEO-KI Card */}
-            <div id="seo-ki" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1" id="seo-ki">
               <div className="text-3xl mb-4">🚀</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">SEO-KI</h3>
               <p className="text-gray-600 mb-4">Optimiere deine Inhalte für Suchmaschinen</p>
               <div className="border-t pt-4">
-                <p className="text-sm font-semibold text-indigo-600">SurferSEO vs. Anyword</p>
+                <a href="/vergleich-surferseo-vs-anyword" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                  SurferSEO vs. Anyword →
+                </a>
               </div>
             </div>
           </div>
         </section>
-
         {/* Mission Section */}
         <section className="bg-white rounded-xl shadow-lg p-8 md:p-12 text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Unsere Mission</h2>
@@ -98,9 +100,8 @@ export default function Home() {
           </div>
         </section>
       </main>
-
       {/* Footer */}
-      <footer id="kontakt" className="bg-gray-800 text-white mt-16">
+      <footer className="bg-gray-800 text-white mt-16" id="kontakt">
         <div className="container mx-auto px-4 py-12">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
@@ -110,24 +111,24 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Kategorien</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#text-ki" className="hover:text-white transition">Text-KI</a></li>
-                <li><a href="#bilder-ki" className="hover:text-white transition">Bilder-KI</a></li>
-                <li><a href="#video-ki" className="hover:text-white transition">Video-KI</a></li>
-                <li><a href="#seo-ki" className="hover:text-white transition">SEO-KI</a></li>
+                <li><a className="hover:text-white transition" href="#text-ki">Text-KI</a></li>
+                <li><a className="hover:text-white transition" href="#bilder-ki">Bilder-KI</a></li>
+                <li><a className="hover:text-white transition" href="#video-ki">Video-KI</a></li>
+                <li><a className="hover:text-white transition" href="#seo-ki">SEO-KI</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Kontakt & Rechtliches</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition">Kontakt</a></li>
-                <li><a href="#" className="hover:text-white transition">Impressum</a></li>
-                <li><a href="#" className="hover:text-white transition">Datenschutz</a></li>
-                <li><a href="#" className="hover:text-white transition">AGB</a></li>
+                <li><a className="hover:text-white transition" href="#">Kontakt</a></li>
+                <li><a className="hover:text-white transition" href="#">Impressum</a></li>
+                <li><a className="hover:text-white transition" href="#">Datenschutz</a></li>
+                <li><a className="hover:text-white transition" href="#">AGB</a></li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 KIVergleich24. Alle Rechte vorbehalten.</p>
+            © 2025 KIVergleich24. Alle Rechte vorbehalten.
           </div>
         </div>
       </footer>
