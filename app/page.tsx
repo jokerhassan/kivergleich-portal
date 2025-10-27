@@ -38,7 +38,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">Text-KI</h3>
               <p className="text-gray-600 mb-4">Vergleiche die besten KI-Tools für Texterstellung</p>
               <div className="border-t pt-4">
-                <a href="/vergleich-copyai-vs-jasper" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                <a className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline" href="/vergleich-copyai-vs-jasper">
                   Copy.ai vs. Jasper →
                 </a>
               </div>
@@ -49,7 +49,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">Bilder-KI</h3>
               <p className="text-gray-600 mb-4">Kreative Bildgenerierung im Vergleich</p>
               <div className="border-t pt-4">
-                <a href="/vergleich-midjourney-vs-dalle" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                <a className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline" href="/vergleich-midjourney-vs-dalle">
                   Midjourney vs. DALL-E →
                 </a>
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">Video-KI</h3>
               <p className="text-gray-600 mb-4">Professionelle Videoproduktion mit KI</p>
               <div className="border-t pt-4">
-                <a href="/vergleich-pictory-vs-synthesia" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                <a className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline" href="/vergleich-pictory-vs-synthesia">
                   Pictory vs. Synthesia →
                 </a>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">SEO-KI</h3>
               <p className="text-gray-600 mb-4">Optimiere deine Inhalte für Suchmaschinen</p>
               <div className="border-t pt-4">
-                <a href="/vergleich-surferseo-vs-anyword" className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
+                <a className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline" href="/vergleich-surferseo-vs-anyword">
                   SurferSEO vs. Anyword →
                 </a>
               </div>
