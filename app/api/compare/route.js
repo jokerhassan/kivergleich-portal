@@ -6,7 +6,7 @@ export async function POST(req) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer DEIN_OPENAI_API_KEY`
+      "Authorization": `Authorization": "Bearer xxxxx`
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
